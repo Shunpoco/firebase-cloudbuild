@@ -3,6 +3,7 @@ steps:
   args:
   - build
   - -t
-   - "gcr.io/[PROJECT_ID]/firebase"
+  - gcr.io/[PROJECT_ID]/firebase
+  - . 
 images:
 - "gcr.io/[PROJECT_ID]/firebase"
